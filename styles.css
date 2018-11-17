@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-size: 1.25em;
 }
-a {
+nav a {
   display: inline-block;
   text-decoration: none;
   color: #555;
@@ -46,23 +46,28 @@ h2 {
   font-size: 2.5em;
   margin-top: 0.25em;
 }
+p {
+  line-height: 1.5em;
+}
 p a {
   text-decoration: underline;
+  color: #555;
 }
 p a:hover {
   color: #777;
   text-decoration: none;
 }
 .top {
-  display: block;
-  width: calc(100% - 4em);
+  width: 100%;
   box-sizing: border-box;
   text-align: right;
   line-height: 1.75em;
   padding-right: 0.5em;
   position: absolute;
-  bottom: 1.5em;
-  background: rgba(200,200,200,0.96);
+  bottom: .5em;
+  background: rgba(200,200,200,0.86);
+  text-decoration: none;
+  color: #555;
 }
 .top:hover {
   background: rgba(160,160,160,0.96);
