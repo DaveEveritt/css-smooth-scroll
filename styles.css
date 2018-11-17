@@ -30,7 +30,6 @@ main {
   /* overflow-y can also be scroll */
   overflow-y: scroll;
   scroll-behavior: smooth;
-  /* overflow: hidden; */
   overflow: scroll;
 }
 section {
