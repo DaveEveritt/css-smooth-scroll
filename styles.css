@@ -63,7 +63,7 @@ p a:hover {
   line-height: 1.75em;
   padding-right: 0.5em;
   position: absolute;
-  bottom: .5em;
+  bottom: 0;
   background: rgba(200,200,200,0.86);
   text-decoration: none;
   color: #555;
